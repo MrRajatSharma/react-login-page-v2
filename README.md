@@ -1,4 +1,6 @@
 # react-login-page-v2
+## update of [react-login-page](https://github.com/MrRajatSharma/react-login-page)
+
 ---
 ## Setup
 1. run `yarn install` 
