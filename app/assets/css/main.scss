@@ -1,0 +1,44 @@
+@import './variables.scss';
+
+@font-face {
+  font-family: "FreightSans";
+  font-weight: 500;
+	src: url("../fonts/Freight\ Sans\ Medium.otf") format("otf");
+}
+
+@font-face {
+  font-family: "FreightSans";
+  font-weight: 900;
+	src: url("../fonts/Freight\ Sans\ Bold.otf") format("otf");
+}
+
+@font-face {
+  font-family: "FreightSans";
+  font-weight: 200;
+	src: url("../fonts/Freight\ Sans\ Light.otf") format("otf");
+}
+
+body {
+  font-family: FreightSans;
+  background-color: $color-white !important;
+}
+
+label {
+  font-weight: 300;
+  color: rgba(0, 0, 0, 0.84);
+  font-size: 15px;
+  margin-bottom: 12px;
+  display: inline-block;
+}
+
+input, select { 
+  border: none;
+  border-bottom: 1px solid;
+  outline: none;
+  display: block;
+  width: 100%;
+  font-size: 18px;
+  padding-left: 5px;
+  padding-right: 5px;
+  background-color: transparent;
+}

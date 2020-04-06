@@ -1,0 +1,93 @@
+.sign {
+	background-image: url(../../assets/images/login.png);
+	background-position: bottom;
+	background-repeat: no-repeat;
+	background-size: contain;
+	border-radius: 4px;
+	background-color: #fff;
+	outline: none;
+	max-width: 500px;
+
+	.google-social-login-btn {
+		& > div {
+
+			margin-right: 0px !important;
+			display: inline-block !important;
+		}
+		margin-top: 1rem;
+		outline: none;
+		display: inline-block !important;
+		width: 100%;
+	}
+	.facebook-signin {
+
+		svg {
+			height: 18px;
+			width: 18px;
+		}
+
+		outline: none;
+		width: 100%;
+		background: #3B5998;
+		color: white;
+		// display: inline-flex;
+		align-items: center;
+		/* color: rgba(0, 0, 0, 0.54); */
+		box-shadow: rgba(0, 0, 0, 0.24) 0px 2px 2px 0px, rgba(0, 0, 0, 0.24) 0px 0px 1px 0px;
+		padding: 12px;
+		border-radius: 2px;
+		border: 1px solid transparent;
+		font-size: 14px;
+		font-weight: 500;
+	}
+	.title {
+		font-weight: 600;
+		margin-bottom: 2rem;
+		font-size: 2rem;
+	}
+
+	label {
+		font-weight: 200;
+		color: rgba(0, 0, 0, 0.84);
+		font-size: 15px;
+		margin-bottom: 12px;
+		display: inline-block;
+	}
+	
+	input, select { 
+		border: none;
+		border-bottom: 1px solid  #ccc;
+		font-weight: 400;
+		outline: none;
+		display: block;
+		width: 100%;
+		font-size: 18px;
+		padding-left: 5px;
+		padding-right: 5px;
+		background-color: transparent;
+    	transition: all .3s cubic-bezier(.2,1,.22,1);
+
+		&:hover, &:active, &:focus {
+			transition: all .3s cubic-bezier(.2,1,.22,1);
+			border-bottom: 1px solid #3b80ff;
+		}
+	}
+
+	.submit {
+		margin: 1rem 0rem;
+		display: inline-block;
+		text-transform: none;
+		font-size: 15.8px;
+		padding: 8px 16px;
+		border: #7e6cee;
+		width: 100%;
+		border-radius: 4rem;
+		background-color: #7e6cee;
+		outline: none;
+
+		&:hover, &:active, &:focus {
+			background-color: #7e6cee;
+			outline: none
+		};
+	}
+}
